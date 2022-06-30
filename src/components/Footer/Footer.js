@@ -1,9 +1,11 @@
+import { FooterSection, FooterParag } from "./FooterStyle";
+
 const Footer = () => {
-    return (
-        <div>
-            Footer
-        </div>
-    )
-}
+  return (
+    <FooterSection>
+      <FooterParag> copyright &copy; 2018 by ultra profile </FooterParag>
+    </FooterSection>
+  );
+};
 
 export default Footer;
