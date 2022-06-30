@@ -27,7 +27,7 @@ const Work = () => {
 
   const WorksList = works.map((workItem) => {
     return (
-      <WorkPart first={workItem.id === 1 ? true : false} key={workItem.id}>
+      <WorkPart first={workItem.id === 1 ? true : false} last={workItem.id === 3 ? true : false} key={workItem.id}>
         <PartIcon className={workItem.icon_name}></PartIcon>
         <PartTitle>{workItem.title}</PartTitle>
         <Line />

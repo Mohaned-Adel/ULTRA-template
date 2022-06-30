@@ -25,6 +25,15 @@ export const WorkPart = styled.div`
   box-sizing: border-box;
   text-align: center;
   margin-left: ${(props) => (props.first === true ? "0" : "5%")};
+  @media (max-width: 575px) {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 47%;
+    margin-left: ${(props) => (props.last === true ? "0" : "5%")};
+  }
 `;
 
 export const PartIcon = styled.i`
