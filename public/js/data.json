@@ -70,19 +70,19 @@
   "social": [
     {
       "id": 1,
-      "icon": "icon fa fa-facebook fa-lg",
+      "icon": "icon fa-brands fa-facebook-f",
       "title": "Follow Me on",
       "body": "Social Facebook"
     },
     {
       "id": 2,
-      "icon": "icon fa fa-twitter fa-lg",
+      "icon": "icon fa-brands fa-twitter",
       "title": "Tweet Me on",
       "body": "Social twitter"
     },
     {
       "id": 3,
-      "icon": "icon fa fa-pinterest fa-lg",
+      "icon": "icon fa-brands fa-pinterest",
       "title": "Pin Me on",
       "body": "Social Pinterest"
     }
