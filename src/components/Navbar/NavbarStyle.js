@@ -64,3 +64,33 @@ export const StyledLink = styled(Link)`
     color: #eb5424;
   }
 `;
+export const NavLabel = styled.label`
+  position: absolute;
+  top: 13px;
+  right: 25px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url("../images/Navbar/open.png") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  cursor: pointer;
+  @media (min-width : 992px) {
+        display: none
+    }
+`;
+
+export const NavInput = styled.input`
+  display: none;
+  position: absolute;
+  top: 13px;
+  right: 25px;
+  &:checked ~ ${UlList} {
+    display: block;
+  };
+  &:checked ~ ${NavLabel} {
+    background: url('../images/Navbar/close.png') no-repeat ;
+    background-size: cover;
+  }
+`;
+

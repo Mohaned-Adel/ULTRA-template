@@ -14,6 +14,9 @@ export const HomeInformation = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  @media (max-width: 575px) {
+    width: 80%;
+  }
 `;
 
 export const HomeTitle = styled.h2`

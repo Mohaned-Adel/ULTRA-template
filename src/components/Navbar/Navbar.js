@@ -1,8 +1,9 @@
-
 import {
   NavbarSection,
   Logo,
   LogoText,
+  NavInput,
+  NavLabel,
   UlList,
   ListItem,
   Anchor,
@@ -16,6 +17,9 @@ const Navbar = () => {
         <Logo>
           <LogoText>Ultra Profile</LogoText>
         </Logo>
+
+        <NavInput id="nav" type="checkbox"></NavInput>
+        <NavLabel for="nav"></NavLabel>
 
         <UlList>
           <ListItem>
