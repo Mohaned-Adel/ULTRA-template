@@ -15,7 +15,7 @@ const Navbar = () => {
     <NavbarSection>
       <div className="container">
         <Logo>
-          <LogoText>Ultra Profile</LogoText>
+          <LogoText>ULTRA Profile</LogoText>
         </Logo>
 
         <NavInput id="nav" type="checkbox"></NavInput>

@@ -12,8 +12,8 @@ class App extends Component {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/ULTRA-template" element={<Index />} />
-          <Route path="/ULTRA-template/contact" element={<Contact />} />
+          <Route exact path="/" element={<Index />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     );
