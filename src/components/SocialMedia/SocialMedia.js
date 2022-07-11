@@ -34,7 +34,7 @@ const SocialMedia = () => {
       </SocialDiv>
     );
   });
-  return <SocialSection>{SocialData}</SocialSection>;
+  return <SocialSection id="socialmedia">{SocialData}</SocialSection>;
 };
 
 export default SocialMedia;

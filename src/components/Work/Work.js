@@ -36,7 +36,7 @@ const Work = () => {
     );
   });
   return (
-    <WorkSection>
+    <WorkSection id="work">
       <div className="container">
         <WorkTitle>
           <TitleSpan>My</TitleSpan> Work

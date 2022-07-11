@@ -37,7 +37,7 @@ const Portfolio = () => {
     );
   });
   return (
-    <PortfolioSection>
+    <PortfolioSection id="portfolio">
       <PortfolioTitle>
         <TitleSpan>My</TitleSpan> Portfolio
       </PortfolioTitle>

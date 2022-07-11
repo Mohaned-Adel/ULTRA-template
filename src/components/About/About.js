@@ -10,7 +10,7 @@ import {
 
 const About = () => {
   return (
-    <CreativeSection>
+    <CreativeSection id="about">
       <div className="container">
         <CreativeInfo>
           <InfoTitle>

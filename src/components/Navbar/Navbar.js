@@ -26,16 +26,16 @@ const Navbar = () => {
             <StyledLink to={"/"}>Home</StyledLink>
           </ListItem>
           <ListItem>
-            <Anchor href="#">Work</Anchor>
+            <Anchor href="#work">Work</Anchor>
           </ListItem>
           <ListItem>
-            <Anchor href="#">Portfolio</Anchor>
+            <Anchor href="#portfolio">Portfolio</Anchor>
           </ListItem>
           <ListItem>
-            <Anchor href="#">Resume</Anchor>
+            <Anchor href="#socialmedia">Resume</Anchor>
           </ListItem>
           <ListItem>
-            <Anchor href="#">About</Anchor>
+            <Anchor href="#about">About</Anchor>
           </ListItem>
           <ListItem>
             <StyledLink to={"/contact"}>Contact</StyledLink>
